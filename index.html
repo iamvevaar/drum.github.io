@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span>clap</span>
+    </div>
+    <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span>hithat</span>
+    </div>
+    <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span>kick</span>
+    </div>
+    <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span>openhat</span>
+    </div>
+    <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span>electro</span>
+    </div>
+    </div>
+
+    <br>
+    <p class="dyno">p</p>
+    
+    <audio data-key="65" src="./sounds/background-clap-long-release.wav"></audio>
+    <audio data-key="83" src="./sounds/clap-snare-type-drum_C_minor.wav"></audio>
+    <audio data-key="68" src="./sounds/jersey-snap.wav"></audio>
+    <audio data-key="70" src="./sounds/noisy-clap-one-shot_B_major.wav"></audio>
+    <audio data-key="71" src="./sounds/shimmering-electro-clap-one-shot_G_major.wav"></audio>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
